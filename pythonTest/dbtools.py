@@ -59,8 +59,8 @@ if __name__ == "__main__": # 为了防止其他文件导入这个dbtools的时�
 # 问题3：  []  r={}
 
 
-    # sql = "delete from orders where product = 'iphone13'"
-    # commit(sql)
+    sql = "delete from orders where product = 'iphone13'"
+    commit(sql)
 
     sql2 = "select * from orders"
     r = query(sql2)
